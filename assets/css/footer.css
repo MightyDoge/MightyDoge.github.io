@@ -1,0 +1,135 @@
+#aboutAztech {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background: #070707;
+}
+#footer {
+  position: relative;
+  height: auto;
+  padding: 50px 100px;
+  background: #111111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#footer .container .footer-section {
+  margin-right: 30px;
+  text-align: center;
+}
+#footer .container .footer-section .about-aztech {
+  width: 40%;
+}
+#footer .container h2,
+#footer .container h6 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+#footer p {
+  color: #999;
+}
+.social {
+  margin-top: 20px;
+  display: flex;
+  padding: 0;
+}
+.social li {
+  list-style: none;
+}
+.social li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transform: scale(1.5);
+}
+.social li a:hover {
+  color: #fff;
+}
+.social li a .fab {
+  font-size: 18px;
+}
+.social li a #mail {
+  font-size: 18px;
+}
+.links {
+  position: relative;
+  width: 25%;
+  padding: 0;
+  width: 100%;
+}
+.links ul {
+  padding: 0;
+}
+.links ul li {
+  list-style: none;
+  text-align: center;
+}
+.links ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.links ul li a:hover {
+  color: #fff;
+}
+#krmLogo {
+  width: 400px;
+  filter: brightness(1.04);
+  margin-top: 63px;
+}
+#az {
+  width: 122px;
+}
+@media (max-width: 991px) {
+  #footer {
+    padding: 1px;
+    padding-top: 5px;
+  }
+  #footer .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  #footer .container .about-aztech {
+    margin-right: 0;
+    text-align: center;
+  }
+  #krmLogo {
+    width: 300px;
+    margin-top: 33px;
+  }
+  #az {
+    width: 120px;
+  }
+}
+
+@media (width: 1024px) {
+  #krmLogo {
+    margin-top: 120px;
+  }
+}
+
+.iddham {
+  color: #e8e8e8;
+}
+
+.final {
+  padding: 0 10px;
+}

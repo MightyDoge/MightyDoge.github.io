@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,500;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
+.countdown {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.count {
+  display: inline-block;
+  font-size: 2em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+
+.count span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+#days {
+  background-color: white;
+  padding: 0 10px;
+  border-radius: 10%;
+  color: #2e2e2e;
+  font-family: "Oswald";
+}
+
+#hours {
+  background-color: white;
+  padding: 0 10px;
+  border-radius: 10%;
+  color: #2e2e2e;
+}
+#minutes {
+  background-color: white;
+  padding: 0 10px;
+  border-radius: 10%;
+  color: #2e2e2e;
+}
+#seconds {
+  background-color: white;
+  padding: 0 10px;
+  border-radius: 10%;
+  color: #2e2e2e;
+}
+
+@media (max-width: 767px) {
+  .count {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
+  .count span {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+  #days {
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 10%;
+    color: black;
+  }
+
+  #hours {
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 10%;
+    color: black;
+  }
+  #minutes {
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 10%;
+    color: black;
+  }
+  #seconds {
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 10%;
+    color: black;
+  }
+  li.count {
+    padding: 8px;
+  }
+}
